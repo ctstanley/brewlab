@@ -1,4 +1,4 @@
-#Three Hearts Farm
+#BrewLab
 
 This is a blank project starter with the following technologies linked up: [Node.js](https://nodejs.org/), [React](http://facebook.github.io/react/), [React Router](http://rackt.github.io/react-router/), [Gulp](http://gulpjs.com/), [WebdriverIO](http://webdriver.io/)(for testing), [Material-UI](http://material-ui.com/#/), [Reflux](https://github.com/reflux/refluxjs), and  [Firebase](https://www.firebase.com/), [Docker](https://www.docker.com/).
 
@@ -95,11 +95,11 @@ Note: Routing tree for application is in routes.jsx with all associated react-ro
 ####Dockerfile
 To create docker image on your local environment just run:
 ```bash
-docker build -t jackzampolin/react-shell:latest https://github.com/jackzampolin/react-shell.git
+docker build -t ctstanley/brewlab:latest https://github.com/ctstanley/brewlab.git
 ```
 
 To run the image in a container with properly forwarded ports just run:
 ```bash
-docker run -d -p 8000:8000 --name react-shell jackzampolin/react-shell:latest
+docker run -d -p 8000:8000 --name brewlab ctstanley/brewlab:latest
 ```
 # brewlab
